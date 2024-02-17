@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayshufy-Music Player-Your favorite music is here </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Ayshu-Music Player">Ayshufy-Music Player</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+        <h1>Best of Ayshu Music Player-No Copyrights Songs</h1>
+            <div class="SongItemContainer">
+                <div class="songItems">
+                    <img src="cover\cover1.jpeg" alt="1">
+                    <span class="songName">Nira</span>
+                    <span class="songlistplay"><span class="timestamp">5:04 <i id="1" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover2.jpeg" alt="2">
+                    <span class="songName">Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">3:14 <i id="2" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover3.jpeg" alt="3">
+                    <span class="songName">Railin Oligal</span>
+                    <span class="songlistplay"><span class="timestamp">2:37 <i id="3" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover4.jpeg" alt="4">
+                    <span class="songName">Beast mode</span>
+                    <span class="songlistplay"><span class="timestamp">3:38 <i id= "4" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover5.jpg" alt="5">
+                    <span class="songName">Kanave Kanave</span>
+                    <span class="songlistplay"><span class="timestamp">4:46 <i id="5" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover6.jpeg" alt="6">
+                    <span class="songName">Hayoda</span>
+                    <span class="songlistplay"><span class="timestamp">3:20 <i id="6" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover7.jpeg" alt="7">
+                    <span class="songName">Tere Vaste</span>
+                    <span class="songlistplay"><span class="timestamp">3:09 <i id="7" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="cover\cover8.jpeg" alt="8">
+                    <span class="songName">Kanadi Poovuku</span>
+                    <span class="songlistplay"><span class="timestamp">3:57 <i id="8" class="far songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-backward-step"id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step"id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="SongInfo" id="gif"><span id="masterSongName">Nira-From Takkar</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7edc07c972.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
